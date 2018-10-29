@@ -1,5 +1,4 @@
 theme: jekyll-theme-minimal
 title:  
-description: visual experiments with p5js
-show_downloads: "true" 
+show_downloads: "false" 
 logo: /images/wolfcatworkshop_logo.png
