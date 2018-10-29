@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
-title: code sketchbook
-description: [visual experiments with p5js]
+title:  
+description: visual experiments with p5js
+show_downloads: "true" 
 logo: /images/wolfcatworkshop_logo.png
