@@ -17,12 +17,9 @@ function setup() {
   var myWidth  = hSpacing * 6;
   var myHeight = r * 2 * 6;
    
-  var canvas = createCanvas(myWidth, myHeight);
+  createCanvas(myWidth, myHeight);
  
-  // Move the canvas so it’s inside our <div id="sketch-holder">.
-  canvas.parent('sketch-holder');
-
-  background(255, 0, 200);	
+ 	
 	
 	
 }
