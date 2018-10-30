@@ -18,10 +18,6 @@ function setup() {
   var myHeight = r * 2 * 6;
    
   createCanvas(myWidth, myHeight);
- 
- 	
-	
-	
 }
 
 function draw() {
@@ -42,6 +38,9 @@ function draw() {
 
 
 }
+
+
+
 
 
 
