@@ -16,6 +16,7 @@ In 2017 I made a bunch of little handcranked machines I documented [here](https:
 
 ### Day 1
 [sketch](./makevember/day-1/).
+![Link to another page](./images/day-1.png).
 
 
 
