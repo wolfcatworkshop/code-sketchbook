@@ -14,12 +14,14 @@ Makevember is a challenge to make one thing everyday in November. There is a lon
 
 In 2017 I made a bunch of little handcranked machines I documented [here](https://wolfcatworkshop.com/index.php/portfolio/one-month-small-machines/) but in 2018 I wanted to get a little bit out of my confort zone and explore some creative coding. As a begginer I think it makes sense to push myself to practice everyday while showing what I'm doing, which explains this collection of sketches. You can also find some of these images and what I did with them on my [twitter](https://twitter.com/wolfCatWorkshop) or [instagram](https://www.instagram.com/wolfcatworkshop/).
 
+I'm only posting screengrabs here so click on the image or link to see the animated or interactive sketch.
+
 ### Day 1
+[![day one image](./images/day-1.png)](./makevember/day-1/)
 
 [sketch](./makevember/day-1/).
 
-[![day one image](./images/day-1.png)](./makevember/day-1/)
-
+A simple set of overlaping grids, the color palette here is inspired by old school risographs. I also drew a second shape with a slight offset and transparency to simulate the charming missalignment of those machines. 
 
 
 
