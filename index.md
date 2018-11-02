@@ -8,7 +8,7 @@ This is a collection of sketches where I explore coding that creates images I fi
 
 ## Makevember Sketches
 
-Makevember is a challenge to make one thing everyday in November. There is a longer [manifesto](https://chickengrylls.wordpress.com/2017/10/31/the-makevember-manifesto/) you should read but in short it proposes:
+Makevember is a challenge to make one thing everyday in November. There is a longer [manifesto](https://www.bricolage.run/blog/2018/10/31/makevember-manifesto-2018) you should read but in short it proposes:
 
 > **Every day in November make a thing** – if you can’t do it every day then do what you can, but the idea is to push yourself to work daily   and with less procrastination. Do not attempt to put your ducks in a row first.
 
@@ -18,7 +18,7 @@ In 2017 I made a bunch of little handcranked machines I documented [here](https:
 
 [sketch](./makevember/day-1/).
 
-![day one image](./images/day-1.png).
+[![day one image](./images/day-1.png)](./makevember/day-1/)
 
 
 
