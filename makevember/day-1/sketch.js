@@ -30,13 +30,13 @@ function setup() {
 function draw() {
 
   //colors by name + color alpha variable
-  var cAlpha     = 120;
+  	var cAlpha     = 120;
 	var fluoPink   = color(255,  72, 176, cAlpha);
 	var yellow     = color(255, 232,   0, cAlpha);
 	var medBlue    = color( 50,  85, 164, cAlpha);
 
   //colors assigned to array for random selection
-  colorArray[0]  = medBlue; 
+  	colorArray[0]  = medBlue; 
 	colorArray[1]  = fluoPink;  
 	colorArray[2]  = yellow;
 	
