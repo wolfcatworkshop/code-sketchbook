@@ -17,7 +17,7 @@ In 2017 I made a bunch of little handcranked machines I documented [here](https:
 I'm only posting screengrabs here so click on the image or link to see the animated or interactive sketch.
 
 ### Day 1
-[![day one image](./images/day-1.png)](./makevember/day-1/)
+[![day one image](./images/day-1.gif)](./makevember/day-1/)
 
 [sketch](./makevember/day-1/)
 
