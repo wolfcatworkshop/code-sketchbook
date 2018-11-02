@@ -18,6 +18,7 @@ I'm only posting screengrabs here so click on the image or link to see the anima
 
 ### Day 1
 [![day one image](./images/day-1.png)](./makevember/day-1/)
+
 [sketch](./makevember/day-1/). A simple set of overlaping grids, the color palette here is inspired by old school risographs. I also drew a second shape with a slight offset and transparency to simulate the charming missalignment of those machines. 
 
 
