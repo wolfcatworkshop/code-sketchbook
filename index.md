@@ -32,4 +32,18 @@ fluorescentPink = color(255,  72, 176);
 
 
 
+### Day 2
+[![day two image](./images/day-2.gif)](./makevember/day-2/)
 
+[sketch](./makevember/day-2/)
+
+I struggled a bit with the bezierVertex function to make the blinking eyelids, but I did it at the end. The palette was inspired by baby mario from "Super Mario World 2: Yoshi's Island", I found [this](https://www.instagram.com/p/BgCcOKAlmog/) color wheel on the [gamecolor wheel](https://www.instagram.com/gamecolorwheel/) instagram account.  
+
+```js
+//palette
+brown      = color('#49443e'); 		
+blackish   = color('#080603');		
+redOrange  = color('#f4401e');		
+darkOrange = color('#f69004');	  
+offWhite   = color('#f3e7df');	  
+```
