@@ -47,3 +47,8 @@ redOrange  = color('#f4401e');
 darkOrange = color('#f69004');	  
 offWhite   = color('#f3e7df');	  
 ```
+
+### Day 3
+[![day three image](./images/day-3.gif)](./makevember/day-3/)
+
+[sketch](./makevember/day-3/)
