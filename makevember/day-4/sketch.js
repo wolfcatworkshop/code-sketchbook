@@ -102,6 +102,8 @@ function makePoly(x, y, radius, numPoints){
 
 //save svg when the button is pressed, requires svg library
 function downloadSVG(){
- save('pattern.svg');
+ //name file based on slider values 
+ var filename = 'pattern_' + slider.value() + '_' + slider2.value();
+ save(filename);
 
 }
