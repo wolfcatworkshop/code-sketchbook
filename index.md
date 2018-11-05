@@ -60,3 +60,11 @@ As a bonus I ended up laser cutting my favorite variation (radius multiplier 2.5
 [![day three image](./images/day-3-laserCut-1.jpg)](https://www.instagram.com/p/Bpvq0yYAtZ1/)
 [![day three image](./images/day-3-laserCut-2.jpg)](https://www.instagram.com/p/Bpvq0yYAtZ1/)
 
+### Day 3
+[![day four image](./images/day-4.png)](./makevember/day-4/)
+
+[sketch](./makevember/day-4/)
+
+A simple pattern navigator that works by placing polygons on a square grid. You can change the radius and the number of sides with some sliders. I wanted to add SVG export so I'm using [this p5 SVG library](https://github.com/zenozeng/p5.js-svg), it requires and older version of p5js so I couldn't use the same technique for placing the SVG canvas inside a DIV that I used on the other sketches so the page doesn't look as neat, but the SVG download works. 
+
+I think the most amusing patterns are made by the octagons. Polygons with a larger number of sides are very close to a circle, and some of the other ones like triangles and hexagons probably look better on a hexagonal grid. 
