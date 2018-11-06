@@ -60,7 +60,7 @@ As a bonus I ended up laser cutting my favorite variation (radius multiplier 2.5
 [![day three image](./images/day-3-laserCut-1.jpg)](https://www.instagram.com/p/Bpvq0yYAtZ1/)
 [![day three image](./images/day-3-laserCut-2.jpg)](https://www.instagram.com/p/Bpvq0yYAtZ1/)
 
-### Day 3
+### Day 4
 [![day four image](./images/day-4.png)](./makevember/day-4/)
 
 [sketch](./makevember/day-4/)
@@ -72,4 +72,22 @@ I think the most amusing patterns are made by the octagons. Polygons with a larg
 I also cut something with my favorite variation, here is an [SVG file](./images/day-4.svg) for this one.
 
 [![day three image](./images/day-4-laserCut.jpg)](https://www.instagram.com/p/BpyAJbUA5lN/)
+
+
+### Day 5
+[![day five image](./images/day-5.gif)](./makevember/day-5/)
+
+[sketch](./makevember/day-5/)
+
+I wanted lots of eyes. I think a sort of monster is kind of taking shape everytime you redraw the canvas. Same palette as day 2.
+
+```js
+//palette
+brown      = color('#49443e'); 		
+blackish   = color('#080603');		
+redOrange  = color('#f4401e');		
+darkOrange = color('#f69004');	  
+offWhite   = color('#f3e7df');	  
+```
+
 
