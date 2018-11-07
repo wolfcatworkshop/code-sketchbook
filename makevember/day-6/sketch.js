@@ -33,6 +33,7 @@ function setup() {
             .addRange ("stroke weight",          0.2,  10, 0.2, 0.1 )    // slider
             .addButton("reset values", defaultValues)                    // reset button
             .addButton("download svg", downloadSVG)                      // download button
+            .addButton("download png", downloadPNG)                      // download button
             .addHTML  ("Navigation","<a href=https://wolfcatworkshop.github.io/code-sketchbook/makevember/day-5/>&#60&#60 previous</a><a href=https://wolfcatworkshop.github.io/code-sketchbook/>&nbsp&nbsp home  &nbsp&nbsp</a><a href=https://wolfcatworkshop.github.io/code-sketchbook/makevember/day-7/>next &#62&#62</a>")
             ;
 
@@ -89,4 +90,8 @@ function defaultValues(){
 //save svg when the button is pressed, requires svg library, used with save button
 function downloadSVG(){
  save('radialPattern.svg');
+  }
+
+function downloadPNG(){
+ saveSVG('radialPattern', 'png');
   }
