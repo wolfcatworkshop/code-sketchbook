@@ -91,7 +91,7 @@ offWhite   = color('#f3e7df');
 ```
 
 ### Day 6
-[![day 6 image](./images/day-6.png)](./makevember/day-6/)
+[![day 6 image](./images/day-6.gif)](./makevember/day-6/)
 
 [sketch](./makevember/day-6/)
 
