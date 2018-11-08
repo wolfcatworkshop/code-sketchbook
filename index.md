@@ -102,11 +102,13 @@ Another "pattern explorer" using only radial symmetry and ellipses. This time I 
 
 [sketch](./makevember/day-7/)
 
-Quite similar to day 4 except now I'm placing the polygons on a hexagonal grid. Hexagons create really pretty patterns and there are some interesting shapes that come out of non-multiples of 3 like pentagons and heptagons. Still using [quicksettings.js](https://github.com/bit101/quicksettings) for the user interface. To create the distance for placing things on a hexagonal grid (or triangle grid if you wish) I'm using this idea:
+Quite similar to day 4 except now I'm placing the polygons on a hexagonal grid. Hexagons create really pretty patterns and there are some interesting shapes that come out of non-multiples of 3 like pentagons and heptagons. Still using [quicksettings.js](https://github.com/bit101/quicksettings) for the user interface. 
+
+To create the distance for placing things on a hexagonal grid (or triangle grid if you wish) I'm using this idea:
 
 ![hexagonal grid diagram](./images/hex-grid-diagram.png)
 
-Given a circle with radius(r), the horizontal distance between circles is the diameter(d). Every other row is offset by the radius(r) and the vertical(y) offset is is the sine of 60 degrees scaled by the diameter(d). Then I use a nested for loop to draw 2 shapes per x and y positions, effectively using a square grid to draw a hexagonal grid. There is probably a better way but this is what my brain came up with. Simplified code looks like this:
+Given a circle with radius(r), the horizontal distance between circles is the diameter(d). Every other row is horizontally offset by the radius(r) and the vertically offset by the sine of 60 degrees scaled by the diameter(d). Then I use a nested for loop to draw 2 shapes per x and y positions, effectively using a square grid to draw a hexagonal grid. There is probably a better way, but this is what my brain came up with. Simplified code looks like this:
 
 ```js
   
@@ -117,8 +119,8 @@ Given a circle with radius(r), the horizontal distance between circles is the di
   //nested loops, notice we move on x by diameter and on y by twice the vertical offset
   for (var x = 0 ; x <= width; x+= diameter){
     for (var y = 0; y <= height; y+= yOffset * 2){
-  		  ellipse(x, y, diameter);
-        ellipse(x + radius, y + yOffset , diameter)
+  		 ellipse(x, y, diameter);
+       ellipse(x + radius, y + yOffset , diameter)
     }
    }
   
