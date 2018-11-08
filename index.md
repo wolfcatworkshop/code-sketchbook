@@ -116,7 +116,7 @@ Given a circle with radius(r), the horizontal distance between circles is the di
   var diameter = radius * 2;                    
   var yOffset  = sin(TWO_PI/6) * d;  //vertical offset
   
-  //nested loops, notice we move on x by diameter and on y by twice the vertical offset
+  //notice that 'x' moves by diameter, and 'y' by twice the vertical offset
   for (var x = 0 ; x <= width; x+= diameter){
    for (var y = 0; y <= height; y+= yOffset * 2){
       ellipse(x, y, diameter);
