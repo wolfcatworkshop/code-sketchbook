@@ -31,8 +31,8 @@ function setup() {
 
   //create quicksettings panel
   panel = QuickSettings.create(120, 90, "Settings")
-            .addRange ("radius ratio",           1,  5,  1, 0.01 )       // radius slider
-            .addRange ("number of sides",  3, 14,  6, 1   )              // n-gon slider
+            .addRange ("radius ratio",             1,  5,    1, 0.01)    // radius slider
+            .addRange ("number of sides",          3, 18,    6, 1   )    // n-gon slider
             .addRange ("stroke weight",          0.2,  34, 0.2, 0.1 )    // stroke weight
             .addButton("download svg", downloadSVG)                      // download button
             .addButton("download png", downloadPNG)                      // download button
