@@ -93,10 +93,10 @@ function leaf(x, y, len, shapeAngle){
 
 //save svg when the button is pressed, requires svg library, used with save buttons
 function downloadSVG(){
- save('polygonPattern.svg');
+ save('leafPattern.svg');
   }
 
 function downloadPNG(){
- saveSVG('polygonPattern', 'png');
+ saveSVG('leafPattern', 'png');
   }
 
