@@ -97,7 +97,7 @@ offWhite   = color('#f3e7df');
 
 Another "pattern explorer" using only radial symmetry and ellipses. This time I used the [quicksettings library](https://github.com/bit101/quicksettings) for the user interface, boy does it make life easy if you want lots of sliders and buttons, it looks fairly clean too. 
 
-### Day 6
+### Day 7
 [![day 7 image](./images/day-7.gif)](./makevember/day-7/)
 
 [sketch](./makevember/day-7/)
@@ -108,7 +108,7 @@ To create the distance for placing things on a hexagonal grid (or triangle grid 
 
 ![hexagonal grid diagram](./images/hex-grid-diagram.png)
 
-Given a circle with radius(r), the horizontal distance between circles is the diameter(d). Every other row is horizontally offset by the radius(r) and the vertically offset by the sine of 60 degrees scaled by the diameter(d). Then I use a nested for loop to draw 2 shapes per x and y positions, effectively using a square grid to draw a hexagonal grid. There is probably a better way, but this is what my brain came up with. Simplified code looks like this:
+Given a circle with radius(r), the horizontal distance between circles is the diameter(d). Every other row is horizontally offset by the radius(r) and vertically offset by the sine of 60 degrees scaled by the diameter(d). Then I use a nested for loop to draw 2 shapes per x and y positions, effectively using a square grid to draw a hexagonal grid. There is probably a better way, but this is what my brain came up with. Simplified code looks like this:
 
 ```js
   
@@ -125,4 +125,7 @@ Given a circle with radius(r), the horizontal distance between circles is the di
    }
 ```
 
+### Day 8
+[![day 8 image](./images/day-8.gif)](./makevember/day-8/)
 
+[sketch](./makevember/day-8/)
