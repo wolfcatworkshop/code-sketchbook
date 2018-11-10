@@ -131,3 +131,8 @@ Given a circle with radius(r), the horizontal distance between circles is the di
 [sketch](./makevember/day-8/)
 
 This one draws a leaf shape on a rectangular grid. You can select shape size, angle, horizontal offset and vertical offset. I also added a checkbox to toggle a simple animation (the shape size oscillates using the sine function). 
+
+### Day 9
+[![day 9 image](./images/day-9.gif)](./makevember/day-9/)
+
+[sketch](./makevember/day-9/)
