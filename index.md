@@ -133,6 +133,8 @@ Given a circle with radius(r), the horizontal distance between circles is the di
 This one draws a leaf shape on a rectangular grid. You can select shape size, angle, horizontal offset and vertical offset. I also added a checkbox to toggle a simple animation (the shape size oscillates using the sine function). 
 
 ### Day 9
-[![day 9 image](./images/day-9.gif)](./makevember/day-9/)
+[![day 9 image](./images/day-9.jpg)](./makevember/day-9/)
 
 [sketch](./makevember/day-9/)
+
+This sketch allows me to draw a series of concentric arcs with custumizable offsets. It's useful for cutting bendy shapes like the one depicted. Bonus: I used a recursive function!. For a video of how the cut paper behaves look at [this post](https://www.instagram.com/p/Bp_NlwhAzzZ/). 
