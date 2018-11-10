@@ -138,3 +138,12 @@ This one draws a leaf shape on a rectangular grid. You can select shape size, an
 [sketch](./makevember/day-9/)
 
 This sketch allows me to draw a series of concentric arcs with custumizable offsets. It's useful for cutting bendy shapes like the one depicted. Bonus: I used a recursive function!. For a video of how the cut paper behaves look at [this post](https://www.instagram.com/p/Bp_NlwhAzzZ/). 
+
+
+
+### Day 10
+[![day 10 image](./images/day-10.gif)](./makevember/day-10/)
+
+[sketch](./makevember/day-10/)
+
+This sketch creates a sort of halftone effect using crosses. The crosses are drawn on a grid where every row is offset from the previous one and a line of symmetry through the center. I'm using perlin noise to change the cross sizes to give them a smooth transition. Unfortunately the SVG library seems to take a fair ammount of resources so I didn't animate the transition, but it's quite amusing if you wanna give it a try.
