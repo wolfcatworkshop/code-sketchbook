@@ -154,3 +154,11 @@ This sketch creates a sort of halftone effect using crosses. The crosses are dra
 [sketch](./makevember/day-11/)
 
 Dipping my toes into a random shape generator that overlaps shapes drawn at random into a grid. I did only ellipses, lines and points to keep it simple and get familiar with the format. 
+
+
+### Day 11
+[![day 12 image](./images/day-12.gif)](./makevember/day-12/)
+
+[sketch](./makevember/day-12/)
+
+Drawing polygons on a grid with some overlapping lines between the center of each polygon and its vertices. The idea was to make them cuttable while highlighting the triangular insides of each polygon. Another exploration on the shape generator with some symmetry added to it.
