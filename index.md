@@ -156,9 +156,16 @@ This sketch creates a sort of halftone effect using crosses. The crosses are dra
 Dipping my toes into a random shape generator that overlaps shapes drawn at random into a grid. I did only ellipses, lines and points to keep it simple and get familiar with the format. 
 
 
-### Day 11
+### Day 12
 [![day 12 image](./images/day-12.gif)](./makevember/day-12/)
 
 [sketch](./makevember/day-12/)
 
 Drawing polygons on a grid with some overlapping lines between the center of each polygon and its vertices. The idea was to make them cuttable while highlighting the triangular insides of each polygon. Another exploration on the shape generator with some symmetry added to it.
+
+### Day 13
+[![day 13 image](./images/day-13.gif)](./makevember/day-13/)
+
+[sketch](./makevember/day-13/)
+
+I've been making pretty rigid grids so far so I was thinking it would be nice to make a sort of "woobly" grid. This is the incarnation at is very basic. I'm drawing quads because I can specify a random variation for each point. Going crazy on the random values creates an amusing animation.
