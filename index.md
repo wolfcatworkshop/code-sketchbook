@@ -169,3 +169,10 @@ Drawing polygons on a grid with some overlapping lines between the center of eac
 [sketch](./makevember/day-13/)
 
 I've been making pretty rigid grids so far so I was thinking it would be nice to make a sort of "woobly" grid. This is the incarnation at is very basic. I'm drawing quads because I can specify a random variation for each point. Going crazy on the random values creates an amusing animation.
+
+### Day 14
+[![day 14 image](./images/day-14.gif)](./makevember/day-14/)
+
+[sketch](./makevember/day-14/)
+
+This one was inspired by this [Tweet](https://twitter.com/jbeda/status/928477822779142144) and a [paper.js sketch](http://sketch.paperjs.org/#V/0.11.8/S/fZJhT8MgEIb/CiExg9GsTI1bOv3kHzDxo/UDtudK2oJhOGOa/neP0nVTpyQkx73vHTwXOmpUCzSjjzX4oqIJLWwZznvlSPv5oHxF7oiBDxJCxje5idnFzjtbw71trEPHzEE5QzE3obAA48EdCq02nl1LmeDm0WDe2yG9Q8+llEPhKzZiGhNyQzS5PXrwKAQnXW4IrlC+h8Lb7/1HNSxltg1khF3dyHTF50xfrHhylBswW19leMecLGO6D1whGNlUWbKRQYyX4cP78Mo0PTeWk/wfg0H9J+A6gnWD+D/aaDhHxzSPfCeeA+I0QrGUk6HnU/gLV0yw6EBe/A8vDlT9NnSh2dNz/wU=). I expanded the idea just a little bit by making it possibe to choose the number of sides. 
