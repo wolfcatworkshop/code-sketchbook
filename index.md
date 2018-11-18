@@ -183,3 +183,18 @@ This one was inspired by this [Tweet](https://twitter.com/jbeda/status/928477822
 [sketch](./makevember/day-15/)
 
 I didn't have a lot of time but I made a symmetric grid where the rectangles are a tiny bit bigger than the spacing and are generated at random, this creates some interesting trails in an otherwise very "space invaders" looking animation.
+
+### Day 16
+[![day 16 image](./images/day-16.gif)](./makevember/day-16/)
+
+[sketch](./makevember/day-16/)
+
+I was exploring four corner symmetry. Nothing too fancy since I had a long day at work. But the trick here is to draw the same rectangle four times:
+
+```js
+  rect(x, y, size, size);                  // top left
+  rect(width - x, y, size, size);          // top right
+  rect(x, height - y, size, size);         // bottom left 
+  rect(width - x, height - y, size, size); // bottom right
+ 
+```
