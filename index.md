@@ -189,7 +189,7 @@ I didn't have a lot of time but I made a symmetric grid where the rectangles are
 
 [sketch](./makevember/day-16/)
 
-I was exploring four corner symmetry. Nothing too fancy since I had a long day at work. But the trick here is to draw the same rectangle four times:
+I was exploring four corner symmetry. Nothing too fancy since I had a long day at work. But the trick here is to draw the same rectangle four times, for left/right symmetry use x and (width -x); and for top/bottom use y and (height-y).
 
 ```js
   rect(x, y, size, size);                  // top left
