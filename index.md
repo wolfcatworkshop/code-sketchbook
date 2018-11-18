@@ -213,10 +213,10 @@ function hquad(x, y, hheight){
   let h = hheight/2;   //half the height
   let w = h * sqrt(3); //half the width
 	quad(x, y - h, 
-       x + w, y, 
-       x, y + h, 
-       x - w, y);
-}
+       	x + w, y, 
+       	x, y + h, 
+       	x - w, y);
+  }
 
 ```
 And the grid can be drawn with two nested for loops that follow a spacing of the same proportions. This image might clarify the idea:
