@@ -198,3 +198,28 @@ I was exploring four corner symmetry. Nothing too fancy since I had a long day a
   rect(width - x, height - y, size, size); // bottom right
  
 ```
+### Day 16
+[![day 17 image](./images/day-17.gif)](./makevember/day-17/)
+
+[sketch](./makevember/day-17/)
+
+I was reading the [wikipedia entry on sine](https://en.wikipedia.org/wiki/Sine) and I found the angles for which the values of sine are [particularly simple](https://en.wikipedia.org/wiki/Exact_trigonometric_constants). We can use that simplicity when writing code to calculate the ratio of certain grids, like in this case of a [hexagonal lattice](https://en.wikipedia.org/wiki/Hexagonal_lattice) that can be constructed out of quadrilaterals which are √3 times as high as wide. 
+
+The basic code to draw that quadrilateral (or rhombus in this case) is:
+
+```js
+//draws a rhombus with center at x, y and a given height; the width is √3 times the height
+function hquad(x, y, hheight){
+  let h = hheight/2;   //half the height
+  let w = h * sqrt(3); //half the width
+	quad(x, y - h, 
+       x + w, y, 
+       x, y + h, 
+       x - w, y);
+}
+
+```
+And the grid can be drawin with two nested loops that follow a spacing of the same proportions. This image might clarify the idea:
+
+![square root of 3 grid diagram](./images/sqrt3-diagram.png)
+
