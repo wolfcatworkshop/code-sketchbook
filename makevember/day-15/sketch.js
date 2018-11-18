@@ -27,7 +27,7 @@ function setup() {
     .addButton("download png", downloadPNG)                         // download button
     .addHTML(
       "Navigation",
-      "<a href=https://wolfcatworkshop.github.io/code-sketchbook/makevember/day-13/>&#60&#60 previous</a><a href=https://wolfcatworkshop.github.io/code-sketchbook/>&nbsp&nbsp home  &nbsp&nbsp</a><a href=https://wolfcatworkshop.github.io/code-sketchbook/makevember/day-15/>next &#62&#62</a>"
+      "<a href=https://wolfcatworkshop.github.io/code-sketchbook/makevember/day-14/>&#60&#60 previous</a><a href=https://wolfcatworkshop.github.io/code-sketchbook/>&nbsp&nbsp home  &nbsp&nbsp</a><a href=https://wolfcatworkshop.github.io/code-sketchbook/makevember/day-16/>next &#62&#62</a>"
     );
 }
 
