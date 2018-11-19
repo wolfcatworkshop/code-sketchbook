@@ -241,7 +241,7 @@ in setup() and use them to draw a "donut" shape. They have an update function th
 
 ```js
 //palette
-background = color(#94F3F9); 		
+background = color('#94F3F9'); 		
 fill       = color('#4DDAED');		
 stroke     = color('#33A3BD');		
  
