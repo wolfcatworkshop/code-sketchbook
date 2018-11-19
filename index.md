@@ -231,3 +231,18 @@ And the grid can be drawn with two nested for loops that follow a spacing of the
 More explorations of the hexagonal lattice with √3. The size of the shapes is proportinal with the distance from the focal point. 
 
 
+### Day 19
+[![day 19 image](./images/day-19.gif)](./makevember/day-19/)
+
+[sketch](./makevember/day-19/)
+
+This was an exercise in using objects that I could update with a button. I create a Node class, and a couple of arrays, populate them 
+in setup() and use them to draw a "donut" shape. They have an update function that changes their location by a random ammount. I'm not sure why would you want a crooked donut but here it is. Palette is from [this image](https://ello.co/cosmicnuggets/post/udreakztgdn8i6h9xnoaga) by [cosmic nuggets](https://www.instagram.com/cosmicnougat/). Colors extracted using https://palettegenerator.com/ and I created the GIF with https://ezgif.com/ which is my favorite tool so far. 
+
+```js
+//palette
+background = color(#94F3F9); 		
+fill       = color('#4DDAED');		
+stroke     = color('#33A3BD');		
+ 
+```
