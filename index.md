@@ -198,7 +198,7 @@ I was exploring four corner symmetry. Nothing too fancy since I had a long day a
   rect(width - x, height - y, size, size); // bottom right
  
 ```
-### Day 16
+### Day 17
 [![day 17 image](./images/day-17.gif)](./makevember/day-17/)
 
 [sketch](./makevember/day-17/)
@@ -222,4 +222,12 @@ function hquad(x, y, hheight){
 And the grid can be drawn with two nested for loops that follow a spacing of the same proportions. This image might clarify the idea:
 
 ![square root of 3 grid diagram](./images/sqrt3-grid.png)
+
+### Day 18
+[![day 18 image](./images/day-18.gif)](./makevember/day-18/)
+
+[sketch](./makevember/day-18/)
+
+More explorations of the hexagonal lattice with √3. The size of the shapes is proportinal with the distance from the focal point. 
+
 
