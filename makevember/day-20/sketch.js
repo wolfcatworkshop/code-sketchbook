@@ -1,7 +1,8 @@
 /*
-#makevember day 12
+#makevember day 20
 
-
+Object oriented implementation of Truchet tiles
+https://en.wikipedia.org/wiki/Truchet_tiles
 
 Federico
 https://wolfcatworkshop.com
