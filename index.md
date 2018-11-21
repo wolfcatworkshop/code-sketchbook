@@ -253,3 +253,12 @@ stroke     = color('#33A3BD');
 [sketch](./makevember/day-20/)
 
 I wanted to implement a version of [Truchet tiles](https://en.wikipedia.org/wiki/Truchet_tiles). So nothing complicated except for an excuse to practice some object oriented programming. 
+
+
+### Day 21
+[![day 21 image](./images/day-21.gif)](./makevember/day-21/)
+
+[sketch](./makevember/day-21/)
+
+With a small modification the previous sketch turned into the quarter-circles version of Truchet tiles.
+
