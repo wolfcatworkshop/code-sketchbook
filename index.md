@@ -329,4 +329,3 @@ If you are looking for SVG capable javaScript platforms there are many other opt
 
 Thanks for looking!
 
-Federico.
