@@ -4,7 +4,7 @@ layout: default
 
 Hi there! I'm an artist and maker living in Los Angeles, you can visit my main website at [wolfCatWorkshop.com](https://wolfcatworkshop.com). 
 
-This is a collection of sketches where I explore coding that creates images I find interesting. I'm not an expert so [comments and suggestions](https://wolfcatworkshop.com/index.php/contact/) are always welcome. 
+This is a collection of sketches where I explore coding that creates images I find interesting and that can sometimes result in a physical object being made. I'm always learning so [somments and suggestions](https://wolfcatworkshop.com/index.php/contact/) are  welcome. 
 
 ## Makevember Sketches
 
@@ -30,7 +30,9 @@ mediumBlue      = color( 50,  85, 164);
 fluorescentPink = color(255,  72, 176);
 ```
 
+And the results of this sketch seemed good for some papercraft, as usual I found out that replicating the colors on the screen is never an easy task.
 
+[![day one Instagram](./images/day-01.jpg)](https://www.instagram.com/p/BpqeIYJHOtE/)
 
 ### Day 2
 [![day two image](./images/day-2.gif)](./makevember/day-2/)
@@ -47,6 +49,10 @@ redOrange  = color('#f4401e');
 darkOrange = color('#f69004');	  
 offWhite   = color('#f3e7df');	  
 ```
+
+And some more papercraft to complement it:
+[![day two Instagram](./images/day-02.jpg)](https://www.instagram.com/p/BptK2rugL7L/)
+
 
 ### Day 3
 [![day three image](./images/day-3.gif)](./makevember/day-3/)
@@ -97,6 +103,10 @@ offWhite   = color('#f3e7df');
 
 Another "pattern explorer" using only radial symmetry and ellipses. This time I used the [quicksettings library](https://github.com/bit101/quicksettings) for the user interface, boy does it make life easy if you want lots of sliders and buttons, it looks fairly clean too. 
 
+And here is the object I made, since this sketch uses a lot of TWO_PI it seemed fitting:
+
+[![day six Instagram](./images/day-06.jpg)](https://www.instagram.com/p/Bp3ob0cg7yT/)
+
 ### Day 7
 [![day 7 image](./images/day-7.gif)](./makevember/day-7/)
 
@@ -125,12 +135,22 @@ Given a circle with radius(r), the horizontal distance between circles is the di
    }
 ```
 
+Heptagons on a hexagonal grid are not super common so I cut this strange thing:
+
+[![day seven Instagram](./images/day-07.jpg)](https://www.instagram.com/p/Bp58rHUgUh0/)
+
+
 ### Day 8
 [![day 8 image](./images/day-8.gif)](./makevember/day-8/)
 
 [sketch](./makevember/day-8/)
 
 This one draws a leaf shape on a rectangular grid. You can select shape size, angle, horizontal offset and vertical offset. I also added a checkbox to toggle a simple animation (the shape size oscillates using the sine function). 
+
+The objects you can make using this particular pattern generator resemble UFOs:
+
+[![day eight Instagram](./images/day-08.jpg)](https://www.instagram.com/p/Bp8rYp5gtfI/)
+
 
 ### Day 9
 [![day 9 image](./images/day-9.jpg)](./makevember/day-9/)
@@ -148,6 +168,10 @@ This sketch allows me to draw a series of concentric arcs with custumizable offs
 
 This sketch creates a sort of halftone effect using crosses. The crosses are drawn on a grid where every row is offset from the previous one and a line of symmetry through the center. I'm using perlin noise to change the cross sizes to give them a smooth transition. Unfortunately the SVG library seems to take a fair ammount of resources so I didn't animate the transition, but it's quite amusing if you wanna give it a try.
 
+I don't think this piece of paper was very interesting but it might have its uses designing speaker grills:
+
+[![day ten Instagram](./images/day-010.jpg)](https://www.instagram.com/p/BqBReWUgPJ3/)
+
 ### Day 11
 [![day 11 image](./images/day-11.gif)](./makevember/day-11/)
 
@@ -155,6 +179,9 @@ This sketch creates a sort of halftone effect using crosses. The crosses are dra
 
 Dipping my toes into a random shape generator that overlaps shapes drawn at random into a grid. I did only ellipses, lines and points to keep it simple and get familiar with the format. 
 
+Perhaps the resulting papercraft cube I made can summon hellish creatures. To create the cube I used the excellent [template maker site](https://www.templatemaker.nl/) to download a simple box and then added the images from the sketch using Illustrator.
+
+[![day eleven Instagram](./images/day-011.jpg)](https://www.instagram.com/p/BqEBzo1AZs4/)
 
 ### Day 12
 [![day 12 image](./images/day-12.gif)](./makevember/day-12/)
@@ -163,12 +190,22 @@ Dipping my toes into a random shape generator that overlaps shapes drawn at rand
 
 Drawing polygons on a grid with some overlapping lines between the center of each polygon and its vertices. The idea was to make them cuttable while highlighting the triangular insides of each polygon. Another exploration on the shape generator with some symmetry added to it.
 
+I was certainly ambitious with the size of my cuts since a lot got burned, but the accidental dial-like look was still amusing.
+
+[![day twelve Instagram](./images/day-012.jpg)](https://www.instagram.com/p/BqGqe7ug0Fb/)
+
+
 ### Day 13
 [![day 13 image](./images/day-13.gif)](./makevember/day-13/)
 
 [sketch](./makevember/day-13/)
 
 I've been making pretty rigid grids so far so I was thinking it would be nice to make a sort of "woobly" grid. This is the incarnation at is very basic. I'm drawing quads because I can specify a random variation for each point. Going crazy on the random values creates an amusing animation.
+
+And it's possible to get interesting looking paper grids out of this one:
+
+[![day thirteen Instagram](./images/day-013.jpg)](https://www.instagram.com/p/BqJnXv8get-/)
+
 
 ### Day 14
 [![day 14 image](./images/day-14.gif)](./makevember/day-14/)
