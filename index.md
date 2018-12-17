@@ -214,12 +214,17 @@ And it's possible to get interesting looking paper grids out of this one:
 
 This one was inspired by this [Tweet](https://twitter.com/jbeda/status/928477822779142144) and a [paper.js sketch](http://sketch.paperjs.org/#V/0.11.8/S/fZJhT8MgEIb/CiExg9GsTI1bOv3kHzDxo/UDtudK2oJhOGOa/neP0nVTpyQkx73vHTwXOmpUCzSjjzX4oqIJLWwZznvlSPv5oHxF7oiBDxJCxje5idnFzjtbw71trEPHzEE5QzE3obAA48EdCq02nl1LmeDm0WDe2yG9Q8+llEPhKzZiGhNyQzS5PXrwKAQnXW4IrlC+h8Lb7/1HNSxltg1khF3dyHTF50xfrHhylBswW19leMecLGO6D1whGNlUWbKRQYyX4cP78Mo0PTeWk/wfg0H9J+A6gnWD+D/aaDhHxzSPfCeeA+I0QrGUk6HnU/gLV0yw6EBe/A8vDlT9NnSh2dNz/wU=). I expanded the idea just a little bit by making it possibe to choose the number of sides. 
 
+[![day fourteen Instagram](./images/day-014.jpg)](https://www.instagram.com/p/BqMMR5VgqTo/)
+
+
 ### Day 15
 [![day 15 image](./images/day-15.gif)](./makevember/day-15/)
 
 [sketch](./makevember/day-15/)
 
 I didn't have a lot of time but I made a symmetric grid where the rectangles are a tiny bit bigger than the spacing and are generated at random, this creates some interesting trails in an otherwise very "space invaders" looking animation.
+
+[![day fifteen Instagram](./images/day-015.jpg)](https://www.instagram.com/p/BqO2hQogk88/)
 
 ### Day 16
 [![day 16 image](./images/day-16.gif)](./makevember/day-16/)
@@ -267,6 +272,8 @@ And the grid can be drawn with two nested for loops that follow a spacing of the
 
 More explorations of the hexagonal lattice with √3. The size of the shapes is proportinal with the distance from the focal point. 
 
+[![day eighteen Instagram](./images/day-016.jpg)](https://www.instagram.com/p/BqWe9yBg2_a/)
+
 
 ### Day 19
 [![day 19 image](./images/day-19.gif)](./makevember/day-19/)
@@ -274,7 +281,7 @@ More explorations of the hexagonal lattice with √3. The size of the shapes is 
 [sketch](./makevember/day-19/)
 
 This was an exercise in using objects that I could update with a button. I create a Node class, and a couple of arrays, populate them 
-in setup() and use them to draw a "donut" shape. They have an update function that changes their location by a random ammount. I'm not sure why would you want a crooked donut but here it is. Palette is from [this image](https://ello.co/cosmicnuggets/post/udreakztgdn8i6h9xnoaga) by [cosmic nuggets](https://www.instagram.com/cosmicnougat/). Colors extracted using https://palettegenerator.com/ and I created the GIF with https://ezgif.com/ which is my favorite tool so far. 
+in setup() and use them to draw a "donut" shape. They have an update function that changes their location by a random ammount. I'm not sure why would you want a crooked donut but here it is. Palette is from [this image](https://ello.co/cosmicnuggets/post/udreakztgdn8i6h9xnoaga) by [cosmic nuggets](https://www.instagram.com/cosmicnougat/). Colors extracted using [palettegenerator.com](https://palettegenerator.com/) and I created the GIF with [ezgif.com](https://ezgif.com/) which is my favorite tool so far. 
 
 ```js
 //palette
@@ -284,6 +291,11 @@ stroke     = color('#33A3BD');
  
 ```
 
+I think the crooked donut acquires and interesting look when made into an object. We are too used to the ragged edges of the random function on screen but there is some delicate about them on paper. 
+
+[![day nineteen Instagram](./images/day-019.jpg)](https://www.instagram.com/p/BqYX0cgAi2N/)
+
+
 ### Day 20
 [![day 20 image](./images/day-20.gif)](./makevember/day-20/)
 
@@ -291,6 +303,9 @@ stroke     = color('#33A3BD');
 
 I wanted to implement a version of [Truchet tiles](https://en.wikipedia.org/wiki/Truchet_tiles). So nothing complicated except for an excuse to practice some object oriented programming. 
 
+You have to make them slightly smaller for cutting but these tiles also create an interesting grill:
+
+[![day twenty Instagram](./images/day-020.jpg)](https://www.instagram.com/p/BqbIZRgghnb/)
 
 ### Day 21
 [![day 21 image](./images/day-21.gif)](./makevember/day-21/)
@@ -299,3 +314,16 @@ I wanted to implement a version of [Truchet tiles](https://en.wikipedia.org/wiki
 
 With a small modification the previous sketch turned into the quarter-circles version of Truchet tiles.
 
+The islands created by this version have their own creative merits:
+
+[![day twentyone Instagram](./images/day-021.jpg)](https://www.instagram.com/p/BqdKb86gTJX/)
+
+
+### Last week and final thoughts
+
+The deadline for another project I had to complete was looming over me so I couldn't code for the last days of november. But if you are a fan of My Neighbor Totoro you should see [this piece I made](https://www.instagram.com/p/Bq8_RjxgMpf/). Nonetheless I feel I packed some good experiments for a month. I wanted to use p5js because it's so easy to open a browser window and start coding, it also makes the sketches easily shareable. The downside here being the ability to export digital fabrication files (such as SVG's). [Zenozeng's](https://github.com/zenozeng/p5.js-svg) library does the trick but one has to dig for older versions of p5js and it will slow things downs and break sometimes (also watch for the ellipse function, you have to specify both width and height otherwise things don't work). If the only goal was to get usable PDF's using the desktop version of Processing might be a better choice. 
+
+If you are looking for SVG capable javaScript platforms there are many other options to explore such as [maker.js](https://maker.js.org/), [two.js](https://two.js.org/), [openJScad](https://openjscad.org/), [paper.js](http://paperjs.org/), dig into PDFKit to get a very processing-like feeling to SVG construction or use [Autodesk's Creative Platform](https://api.tinkercad.com/libraries/1vxKXGNaLtr/0/docs/index.html) in Tinkercad. Althought it was tempting to go in these directions I stuck with p5 for this round, well, except for [this experiment](https://www.instagram.com/p/Bq1ZMh7AIjH/) using Tinkercad blocks.
+
+Thanks!
+Federico.
