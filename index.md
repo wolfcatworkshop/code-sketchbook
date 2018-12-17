@@ -30,7 +30,7 @@ mediumBlue      = color( 50,  85, 164);
 fluorescentPink = color(255,  72, 176);
 ```
 
-And the results of this sketch seemed good for some papercraft, as usual I found out that replicating the colors on the screen is never an easy task.
+And the results of this sketch seemed good for some papercraft, replicating the colors on the screen is never an easy task.
 
 [![day one Instagram](./images/day-01.jpg)](https://www.instagram.com/p/BpqeIYJHOtE/)
 
@@ -59,7 +59,7 @@ And some more papercraft to complement it:
 
 [sketch](./makevember/day-3/)
 
-My gif export was a little clunky, check out the [sketch page](./makevember/day-3/) for a better experience. I started by trying to recreate the classic [overlapping circle pattern](https://en.wikipedia.org/wiki/Overlapping_circles_grid) on a hexagonal grid but when I started changing the radius of the circles crazy patterns started showing up. So I added a little slider to navigate them by multiplying the radius by a certain amount. The starting point of 1 is with the circles tightly packed on the hexagonal grid, but this is an arbitrary choice on my part. 
+My gif export was a little clunky, check out the [sketch page](./makevember/day-3/) for a better experience. I started by trying to recreate the classic [overlapping circle pattern](https://en.wikipedia.org/wiki/Overlapping_circles_grid) on a hexagonal grid but when I started changing the radius of the circles crazy patterns began to emerge. I added a slider to navigate them by multiplying the radius by a certain amount. The starting point of 1 is with the circles tightly packed on the hexagonal grid, but this is an arbitrary choice on my part. 
 
 As a bonus I ended up laser cutting my favorite variation (radius multiplier 2.5), here is an [SVG file](./images/day-3.svg) if you are interested in cutting your own. 
 
@@ -157,7 +157,7 @@ The objects you can make using this particular pattern generator resemble UFOs:
 
 [sketch](./makevember/day-9/)
 
-This sketch allows me to draw a series of concentric arcs with custumizable offsets. It's useful for cutting bendy shapes like the one depicted. Bonus: I used a recursive function!. For a video of how the cut paper behaves look at [this post](https://www.instagram.com/p/Bp_NlwhAzzZ/). 
+This sketch allows me to draw a series of concentric arcs with custumizable offsets. It's useful for cutting bendy shapes like the one depicted. Bonus: I used a recursive function! For a video of how the cut paper behaves look at [this post](https://www.instagram.com/p/Bp_NlwhAzzZ/). 
 
 
 
@@ -166,7 +166,7 @@ This sketch allows me to draw a series of concentric arcs with custumizable offs
 
 [sketch](./makevember/day-10/)
 
-This sketch creates a sort of halftone effect using crosses. The crosses are drawn on a grid where every row is offset from the previous one and a line of symmetry through the center. I'm using perlin noise to change the cross sizes to give them a smooth transition. Unfortunately the SVG library seems to take a fair ammount of resources so I didn't animate the transition, but it's quite amusing if you wanna give it a try.
+This sketch creates a sort of halftone effect using crosses. The crosses are drawn on a grid where every row is offset from the previous one and there is a line of symmetry through the center of the canvas. I'm using perlin noise to change the cross sizes to give them a smooth transition. Unfortunately the SVG library seems to take a fair ammount of resources so I didn't animate the transition, but it's quite amusing if you wanna give it a try.
 
 I don't think this piece of paper was very interesting but it might have its uses designing speaker grills:
 
@@ -270,7 +270,7 @@ And the grid can be drawn with two nested for loops that follow a spacing of the
 
 [sketch](./makevember/day-18/)
 
-More explorations of the hexagonal lattice with √3. The size of the shapes is proportinal with the distance from the focal point. 
+More explorations of the hexagonal lattice with √3. The size of the shapes is proportinal to the distance from the focal point. 
 
 [![day eighteen Instagram](./images/day-016.jpg)](https://www.instagram.com/p/BqWe9yBg2_a/)
 
@@ -281,7 +281,7 @@ More explorations of the hexagonal lattice with √3. The size of the shapes is 
 [sketch](./makevember/day-19/)
 
 This was an exercise in using objects that I could update with a button. I create a Node class, and a couple of arrays, populate them 
-in setup() and use them to draw a "donut" shape. They have an update function that changes their location by a random ammount. I'm not sure why would you want a crooked donut but here it is. Palette is from [this image](https://ello.co/cosmicnuggets/post/udreakztgdn8i6h9xnoaga) by [cosmic nuggets](https://www.instagram.com/cosmicnougat/). Colors extracted using [palettegenerator.com](https://palettegenerator.com/) and I created the GIF with [ezgif.com](https://ezgif.com/) which is my favorite tool so far. 
+in setup() and use them to draw a "donut" shape. They have an update function that changes their location by a random ammount. I'm not sure why would you want a crooked donut but here it is. Palette is from [this image](https://ello.co/cosmicnuggets/post/udreakztgdn8i6h9xnoaga) by [cosmic nuggets](https://www.instagram.com/cosmicnougat/). Colors extracted using [palettegenerator.com](https://palettegenerator.com/) and I created the GIF with [ezgif.com](https://ezgif.com/) which is my favorite all around gif tool so far. 
 
 ```js
 //palette
@@ -291,7 +291,7 @@ stroke     = color('#33A3BD');
  
 ```
 
-I think the crooked donut acquires and interesting look when made into an object. We are too used to the ragged edges of the random function on screen but there is some delicate about them on paper. 
+I think the crooked donut acquires and interesting look when made into an object. We are too used to the ragged edges of the random function on screen but there is something delicate about them on paper. 
 
 [![day nineteen Instagram](./images/day-019.jpg)](https://www.instagram.com/p/BqYX0cgAi2N/)
 
@@ -314,16 +314,19 @@ You have to make them slightly smaller for cutting but these tiles also create a
 
 With a small modification the previous sketch turned into the quarter-circles version of Truchet tiles.
 
-The islands created by this version have their own creative merits:
+The random islands created by this version have their own creative merits:
 
 [![day twentyone Instagram](./images/day-021.jpg)](https://www.instagram.com/p/BqdKb86gTJX/)
 
 
 ### Last week and final thoughts
 
-The deadline for another project I had to complete was looming over me so I couldn't code for the last days of november. But if you are a fan of My Neighbor Totoro you should see [this piece I made](https://www.instagram.com/p/Bq8_RjxgMpf/). Nonetheless I feel I packed some good experiments for a month. I wanted to use p5js because it's so easy to open a browser window and start coding, it also makes the sketches easily shareable. The downside here being the ability to export digital fabrication files (such as SVG's). [Zenozeng's](https://github.com/zenozeng/p5.js-svg) library does the trick but one has to dig for older versions of p5js and it will slow things downs and break sometimes (also watch for the ellipse function, you have to specify both width and height otherwise things don't work). If the only goal was to get usable PDF's using the desktop version of Processing might be a better choice. 
+The deadline for another project I had to complete was looming over me so I couldn't code for the last days of november. But if you are a fan of My Neighbor Totoro you should see [this piece I made](https://www.instagram.com/p/Bq8_RjxgMpf/). 
 
-If you are looking for SVG capable javaScript platforms there are many other options to explore such as [maker.js](https://maker.js.org/), [two.js](https://two.js.org/), [openJScad](https://openjscad.org/), [paper.js](http://paperjs.org/), dig into PDFKit to get a very processing-like feeling to SVG construction or use [Autodesk's Creative Platform](https://api.tinkercad.com/libraries/1vxKXGNaLtr/0/docs/index.html) in Tinkercad. Althought it was tempting to go in these directions I stuck with p5 for this round, well, except for [this experiment](https://www.instagram.com/p/Bq1ZMh7AIjH/) using Tinkercad blocks.
+Nonetheless I feel I packed some good experiments for a month. I wanted to use p5js because it's so easy to open a browser window and start coding, it also makes the sketches easily shareable. The downside here being the ability to export digital fabrication files (such as SVG's). [Zenozeng's](https://github.com/zenozeng/p5.js-svg) library does the trick but one has to dig for older versions of p5js and it will slow things downs and break sometimes (also watch for the ellipse function, you have to specify both width and height otherwise things don't work). If the only goal was to get usable PDF's using the desktop version of Processing might be a better choice. 
 
-Thanks!
+If you are looking for SVG capable javaScript platforms there are many other options to explore such as [maker.js](https://maker.js.org/), [two.js](https://two.js.org/), [openJScad](https://openjscad.org/), [paper.js](http://paperjs.org/), dig into [PDFKit](http://pdfkit.org/) to get a very processing-like feeling to SVG construction or use [Autodesk's Creative Platform](https://api.tinkercad.com/libraries/1vxKXGNaLtr/0/docs/index.html) in Tinkercad. Althought it was tempting to go in these directions I stuck with p5 for this round, well, except for [this experiment](https://www.instagram.com/p/Bq1ZMh7AIjH/) using Tinkercad blocks.
+
+Thanks for looking!
+
 Federico.
