@@ -51,6 +51,7 @@ offWhite   = color('#f3e7df');
 ```
 
 And some more papercraft to complement it:
+
 [![day two Instagram](./images/day-02.jpg)](https://www.instagram.com/p/BptK2rugL7L/)
 
 
